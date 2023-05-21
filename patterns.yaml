@@ -1,7 +1,7 @@
 - id: kahve-dunyasi
   name: Kahve dunyasi
   description: Turkish coffee shop
-  icon: https://github.com/xetera/extract-sms/blob/main/assets/icons/kahve-dunyasi.png?raw=true
+  icon: https://github.com/xetera/sms-regex/blob/main/assets/icons/kahve-dunyasi.png?raw=true
   patterns:
     - id: login
       name: Login
@@ -14,7 +14,7 @@
 - id: trendyol
   name: Trendyol
   description: Turkish shopping app
-  icon: https://github.com/xetera/extract-sms/blob/main/assets/icons/trendyol.jpg?raw=true
+  icon: https://github.com/xetera/sms-regex/blob/main/assets/icons/trendyol.jpg?raw=true
   patterns:
     - id: delivery-code
       name: Delivery Code
@@ -27,7 +27,7 @@
 - id: interaktif-vergi-dairesi
   name: Interaktif Vergi Dairesi
   description: Tax office for Turkish companies
-  icon: https://github.com/xetera/extract-sms/blob/main/assets/icons/ivd.png?raw=true
+  icon: https://github.com/xetera/sms-regex/blob/main/assets/icons/ivd.png?raw=true
   patterns:
     - id: invoice-confirmation
       name: Invoice Confirmation
@@ -46,7 +46,7 @@
 - id: finansbank
   name: Finansbank
   description: Turkish bank
-  icon: https://github.com/xetera/extract-sms/blob/main/assets/icons/finansbank.png?raw=true
+  icon: https://github.com/xetera/sms-regex/blob/main/assets/icons/finansbank.png?raw=true
   patterns:
     - id: 3d-confirmation
       name: 3D Confirmation
@@ -61,7 +61,7 @@
 - id: turk-telekom
   name: Turk Telekom
   description: Turkish ISP
-  icon: https://github.com/xetera/extract-sms/blob/main/assets/icons/turk-telekom.png?raw=true
+  icon: https://github.com/xetera/sms-regex/blob/main/assets/icons/turk-telekom.png?raw=true
   patterns:
     - id: wifi-login
       name: Wifi Login
@@ -74,7 +74,7 @@
 - id: pegasus-airlines
   name: Pegasus Airlines
   description: Turkish airliner
-  icon: https://github.com/xetera/extract-sms/blob/main/assets/icons/pegasus-airlines.png?raw=true
+  icon: https://github.com/xetera/sms-regex/blob/main/assets/icons/pegasus-airlines.png?raw=true
   patterns:
     - id: reservation-view
       name: Reservation View
