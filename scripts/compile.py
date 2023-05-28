@@ -1,12 +1,12 @@
 import json
 import yaml
 
+DESTINATION = "./generated/patterns.json"
 
 if __name__ == "__main__":
-    print("Compiling patterns.yaml to patterns.json")
-    out = yaml.load(
-        open("./patterns.yaml", "r"),
-        Loader=yaml.CLoader
-    )
-    json.dump(out, open("./patterns.json", "w"), indent=2)
-    print("Done!")
+    print(f"Compiling patterns.yaml to {DESTINATION}")
+    with open("./patterns.yaml", "r", encoding="utf-8") as y,\
+         open(DESTINATION, "w", encoding="utf-8") as j:
+        out = yaml.load(y, Loader=yaml.CLoader)
+        json.dump(out, j, indent=2)
+        print("Done!")

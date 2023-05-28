@@ -30,6 +30,6 @@ jobs:
       # Commit all changed files back to the repository
       - uses: EndBug/add-and-commit@v9
         with:
-          add: "patterns.json"
+          add: "generated/patterns.json"
           author_name: GitHub Actions
           message: Compiled patterns to JSON
