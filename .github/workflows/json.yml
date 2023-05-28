@@ -28,8 +28,8 @@ jobs:
         run: python scripts/compile.py
 
       # Commit all changed files back to the repository
-      - name: Archive compiled json
-        uses: actions/upload-artifact@v3
+      - uses: EndBug/add-and-commit@v9
         with:
-          name: json
-          path: patterns.json
+          add: "patterns.json"
+          author_name: GitHub Actions
+          message: Compiled patterns to JSON
