@@ -8,5 +8,5 @@ if __name__ == "__main__":
         open("./patterns.yaml", "r"),
         Loader=yaml.CLoader
     )
-    json.dump(out, open("./patterns.json", "w"), indent=2)
+    json.dump(out, open("./generated/patterns.json", "w"), indent=2)
     print("Done!")
