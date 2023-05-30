@@ -49,7 +49,7 @@
         "senders": [
           "GIB"
         ],
-        "pattern": "SMS SIFRENIZ: (?<otp>\\w+)"
+        "pattern": "SMS SIFRENIZ: (?<otp>\\S+)"
       },
       {
         "id": "generic-confirmation",
