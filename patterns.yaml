@@ -41,7 +41,7 @@
       description: Generic OTP for confirming actions
       type: otp
       senders: *ivd-senders
-      pattern: "Interaktif Vergi Dairesi SMS sifreniz: (?<otp>\\d+) B\\d{3}"
+      pattern: "SMS sifreniz: (?<otp>\\S+)"
 
 - id: finansbank
   name: Finansbank
