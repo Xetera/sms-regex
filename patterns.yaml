@@ -35,7 +35,7 @@
       type: otp
       senders: &ivd-senders
         - GIB
-      pattern: "SMS SIFRENIZ: (?<otp>\\w+)"
+      pattern: "SMS SIFRENIZ: (?<otp>\\S+)"
     - id: generic-confirmation
       name: Generic Confirmation
       description: Generic OTP for confirming actions
