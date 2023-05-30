@@ -49,7 +49,7 @@
         "senders": [
           "GIB"
         ],
-        "pattern": "EARSIV FATURA(INTERAKTIF) ONAYI ICIN SMS SIFRENIZ: (?<otp>\\w+) B\\d{3}"
+        "pattern": "SMS SIFRENIZ: (?<otp>\\w+)"
       },
       {
         "id": "generic-confirmation",
@@ -59,7 +59,7 @@
         "senders": [
           "GIB"
         ],
-        "pattern": "SMS sifreniz: (?<otp>\\S+)"
+        "pattern": "Interaktif Vergi Dairesi SMS sifreniz: (?<otp>\\d+)"
       }
     ]
   },
