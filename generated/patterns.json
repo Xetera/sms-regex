@@ -59,7 +59,7 @@
         "senders": [
           "GIB"
         ],
-        "pattern": "Interaktif Vergi Dairesi SMS sifreniz: (?<otp>\\d+) B\\d{3}"
+        "pattern": "SMS sifreniz: (?<otp>\\S+)"
       }
     ]
   },
