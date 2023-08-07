@@ -36,6 +36,24 @@
     ]
   },
   {
+    "id": "getir",
+    "name": "Getir",
+    "description": "Turkish shopping app",
+    "icon": "https://github.com/xetera/sms-regex/blob/main/assets/icons/getir.jpg?raw=true",
+    "patterns": [
+      {
+        "id": "login-otp",
+        "name": "Login",
+        "description": "OTP for logging in",
+        "type": "otp",
+        "senders": [
+          "GETIR"
+        ],
+        "pattern": "(?<otp>\\d+) dogrulama kodu ile Getir kullanici hesabiniza giris yapmaktasiniz."
+      }
+    ]
+  },
+  {
     "id": "interaktif-vergi-dairesi",
     "name": "Interaktif Vergi Dairesi",
     "description": "Tax office for Turkish companies",
