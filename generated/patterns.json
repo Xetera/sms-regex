@@ -98,6 +98,20 @@
           "FINANSBANK*"
         ],
         "pattern": "TL harcamaniz icin sifreniz:(?<otp>\\d+)"
+      },
+      {
+        "id": "masterpass",
+        "name": "Masterpass Verification",
+        "description": "Verification for connecting masterpass to online services",
+        "type": "otp",
+        "senders": [
+          [
+            "FINANSBANK",
+            "*FINANSBANK",
+            "FINANSBANK*"
+          ]
+        ],
+        "pattern": "(?<otp>\\d+) dogrulama kodu ile (?<phone_number>\\d+)"
       }
     ]
   },
