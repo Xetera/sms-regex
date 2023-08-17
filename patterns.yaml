@@ -65,11 +65,18 @@
       name: 3D Confirmation
       description: OTP for 3D purchase confirmation
       type: otp
-      senders:
+      senders: &finansbank-senders
         - FINANSBANK
         - "*FINANSBANK"
         - "FINANSBANK*"
       pattern: "TL harcamaniz icin sifreniz:(?<otp>\\d+)"
+    - id: masterpass
+      name: Masterpass Verification
+      description: Verification for connecting masterpass to online services
+      type: otp
+      senders:
+        - *finansbank-senders
+      pattern: "(?<otp>\\d+) dogrulama kodu ile (?<phone_number>\\d+)"
 
 - id: turk-telekom
   name: Turk Telekom
