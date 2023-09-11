@@ -75,7 +75,9 @@
         "description": "Generic OTP for confirming actions",
         "type": "otp",
         "senders": [
-          "GIB"
+          [
+            "GIB"
+          ]
         ],
         "pattern": "Interaktif Vergi Dairesi SMS sifreniz: (?<otp>\\d+)"
       }
