@@ -53,8 +53,7 @@
       name: Generic Confirmation
       description: Generic OTP for confirming actions
       type: otp
-      senders:
-        - *ivd-senders
+      senders: *ivd-senders
       pattern: "Interaktif Vergi Dairesi SMS sifreniz: (?<otp>\\d+)"
 
 - id: finansbank
@@ -75,8 +74,7 @@
       name: Masterpass Verification
       description: Verification for connecting masterpass to online services
       type: otp
-      senders:
-        - *finansbank-senders
+      senders: *finansbank-senders
       pattern: "(?<otp>\\d+) dogrulama kodu ile (?<phone_number>\\d+)"
 
 - id: turk-telekom
