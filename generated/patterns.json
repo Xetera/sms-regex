@@ -100,6 +100,18 @@
         "pattern": "TL harcamaniz icin sifreniz:(?<otp>\\d+)"
       },
       {
+        "id": "3d-confirmation-2",
+        "name": "3D confirmation 2",
+        "description": "A different kind of OTP SMS pattern for no reason whatsoever",
+        "type": "otp",
+        "senders": [
+          "FINANSBANK",
+          "*FINANSBANK",
+          "FINANSBANK*"
+        ],
+        "pattern": "harcamaniz icin sifre: (?<otp>\\d+) "
+      },
+      {
         "id": "masterpass",
         "name": "Masterpass Verification",
         "description": "Verification for connecting masterpass to online services",
